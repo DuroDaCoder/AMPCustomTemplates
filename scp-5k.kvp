@@ -24,6 +24,7 @@ Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
 Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
 Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
 Meta.Author=Robert H.
+Meta.AppConfigId=scp-5k
 Meta.ConfigManifest=scp-5kconfig.json
 Meta.ConfigRoot=scp-5k.kvp
 Meta.Description=
