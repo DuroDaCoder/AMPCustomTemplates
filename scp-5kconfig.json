@@ -1,0 +1,54 @@
+[
+    {
+        "DisplayName": "Starting Map",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "M_ServerDefault",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Name",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "servername=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "servername=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "SCP: 5K Dedicated Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Steam Server Name",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "SteamServerName=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "SteamServerName=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "SCP: 5K Dedicated Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map Rotation",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "maprotation=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "maprotation=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Area12",
+        "EnumValues": {}
+    }
+]
