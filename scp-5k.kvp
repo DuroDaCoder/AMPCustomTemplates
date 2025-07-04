@@ -10,12 +10,12 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}/{GenericModule.App.ApplicationPort1}
-Meta.AppConfigId=de7e76dd-985c-4f3c-97c9-3e23271a23df
+Meta.AppConfigId=d15f697a-e839-4211-91e2-1dba7bc654b5
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=SCP: 5K
-App.CommandLineArgs=-log -port={{$ApplicationPort1}} -queryport={{$ApplicationPort2}} -maxplayers={{$MaxUsers}} -force_steamclient_link -noasyncloadingthread -execCmds="n.gNavmeshSynchronousTileGeneration 1" -useperfthreads {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} -log -port={{$ApplicationPort1}} -queryport={{$ApplicationPort2}} -maxplayers={{$MaxUsers}} -force_steamclient_link -noasyncloadingthread -execCmds="n.gNavmeshSynchronousTileGeneration 1" -useperfthreads {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
@@ -78,7 +78,7 @@ App.BaseDirectory=./scp-5k/872670/
 App.WorkingDir=872670
 App.ExecutableWin=872670\WindowsServer\PandemicServer.exe
 App.ExecutableLinux=872670/LinuxServer/Pandemic/Binaries/Linux/PandemicServer
-App.LinuxCommandLineArgs=
+App.LinuxCommandLineArgs=Pandemic
 App.Ports=@IncludeJson[scp-5kports.json]
 App.UpdateSources=@IncludeJson[scp-5kupdates.json]
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
