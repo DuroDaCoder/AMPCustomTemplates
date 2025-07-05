@@ -2,14 +2,14 @@
     {
         "Protocol": "Both",
         "Port": "7777",
-        "Name": "Main Game Port",
+        "Name": "Game Port",
         "Description": "",
         "Ref": "MainGamePort"
     },
     {
         "Protocol": "Both",
         "Port": "27015",
-        "Name": "Steam Query Port",
+        "Name": "Query Port",
         "Description": "",
         "Ref": "SteamQueryPort"
     }
