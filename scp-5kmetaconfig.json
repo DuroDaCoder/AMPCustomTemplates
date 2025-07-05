@@ -2,11 +2,13 @@
     {
         "ConfigFile": "WindowsServer\\Pandemic\\Saved\\Config\\ServerConfig.ini",
         "ConfigType": "auto",
-        "AutoMap": true
+        "AutoMap": true,
+        "Importable": true
     },
     {
         "ConfigFile": "LinuxServer/Pandemic/Saved/Config/ServerConfig.ini",
         "ConfigType": "auto",
-        "AutoMap": true
+        "AutoMap": true,
+        "Importable": true
     }
 ]
