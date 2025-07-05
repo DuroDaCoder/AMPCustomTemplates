@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Starting Map",
-        "Category": "SCP:5K",
+        "Category": "SCP 5K",
         "Description": "",
         "Keywords": "starting,map",
         "FieldName": "",
@@ -18,7 +18,7 @@
     },
     {
         "DisplayName": "Server Name",
-        "Category": "SCP:5K",
+        "Category": "SCP 5K",
         "Description": "",
         "Keywords": "server,name",
         "FieldName": "servername=",
@@ -35,7 +35,7 @@
     },
     {
         "DisplayName": "Steam Server Name",
-        "Category": "SCP:5K",
+        "Category": "SCP 5K",
         "Description": "",
         "Keywords": "steam,server,name",
         "FieldName": "SteamServerName=",
@@ -52,7 +52,7 @@
     },
     {
         "DisplayName": "Map Rotation",
-        "Category": "SCP:5K",
+        "Category": "SCP 5K",
         "Description": "",
         "Keywords": "map,rotation",
         "FieldName": "maprotation=",
