@@ -9,16 +9,5 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CreateSymlink",
-        "UpdateSourceData": "./scp-5k/872670/",
-        "UpdateSourceArgs": "./scp-5k/884110/",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": true
     }
 ]
