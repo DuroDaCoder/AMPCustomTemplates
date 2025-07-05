@@ -66,5 +66,22 @@
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "SCP 5K",
+        "Description": "",
+        "Keywords": "max,players",
+        "FieldName": "maxplayers=",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "maxplayers=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8",
+        "Placeholder": "8",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
     }
 ]
